@@ -19,3 +19,12 @@
 ![Capture3](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture3.PNG)
   * Obteniendo el recurso /html
 ![Capture4](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture4.PNG)
+- Contando las Palabras
+![Capture5](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture5.PNG)
+  * GET: Es utilizado para solicitar datos de un recurso especifico.
+  * POST: Es utilizado para enviar datos a un servidor para crear/actualizar un recurso.
+  * Otras Peticiones:
+    * PUT: Es utilizado para enviar datos a un servidor para crear/actualizar un recurso.
+    * HEAD: Es casi identido a GET, pero sin el cuerpo de respuesta
+    * DELETE: Elimina el recurso especificado.
+    * OPTIONS: Describe las opciones de comunicacion para el recurso target.
