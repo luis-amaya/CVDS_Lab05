@@ -28,3 +28,9 @@
     * HEAD: Es casi identido a GET, pero sin el cuerpo de respuesta
     * DELETE: Elimina el recurso especificado.
     * OPTIONS: Describe las opciones de comunicacion para el recurso target.
+- Utilizando curl
+  * curl -v
+![Capture6](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture6.PNG)
+  * curl -i
+![Capture7](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture7.PNG)
+  * Diferencias entre parametros 
