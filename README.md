@@ -7,4 +7,4 @@
 - Realizando la conexion sincrona TCP/IP a traves de Telnet
 ![Capture1](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture1.PNG)
 - Peticion GET solicitando el recurso 'sssss/abc.html', utilizando la version 1.0 de HTTP
-
+![Capture2](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture2.PNG)
