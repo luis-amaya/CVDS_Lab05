@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <script>
+        function validateForm(){
+            var x = document.forms["formulario"]["id"].value;
+            if(x != parseInt(x)){
+                alert("Por favor ingrese un numero valido");
+                return false;
+            }
+        }
+    </script>
+    <body>
+        <div style="background:#a631d4 !important" class="jumbotron text-center">
+            <h1> Laboratorio #5</h1>
+            <p>Sebastian Mina - Luis Amaya</p>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <form name="formulario" action="/extendServlet" method="POST">
+                        <div class="form-group">
+                            <label>Id</label>
+                            <br>
+                            <input type="text" class="form-control" name="id">
+                            <br>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

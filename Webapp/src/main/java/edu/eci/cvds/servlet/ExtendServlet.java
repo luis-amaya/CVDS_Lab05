@@ -20,7 +20,7 @@ import edu.eci.cvds.servlet.model.Todo;
 
 
 @WebServlet(
-    urlPatterns = "/extedServlet"
+    urlPatterns = "/extendServlet"
 )
 
 public class ExtendServlet extends HttpServlet{
@@ -29,6 +29,37 @@ public class ExtendServlet extends HttpServlet{
 
     @Override
     protected void doGet(javax.servlet.http.HttpServletRequest req, javax.servlet.http.HttpServletResponse resp) throws javax.servlet.ServletException, java.io.IOException {
+        Writer responseWriter = resp.getWriter();
+        Optional<String> optName = Optional.ofNullable(req.getParameter("id"));
+        try {
+            if(optName.isPresent()){
+                resp.setStatus(HttpServletResponse.SC_OK);
+                String stringId = optName.get();
+                int id = Integer.parseInt(stringId);
+                Todo todo = Service.getTodo(id);
+                ArrayList<Todo> todoList = new ArrayList<Todo>();
+                todoList.add(todo);
+                responseWriter.write(Service.todosToHTMLTable(todoList));
+            }
+        } catch (FileNotFoundException e) {
+            resp.setStatus(HttpServletResponse.SC_NOT_FOUND);
+            responseWriter.write("No se encontro item con el id indicado");
+        } catch(MalformedURLException e){
+            resp.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            responseWriter.write("Error interno en el servidor");
+        } catch(NumberFormatException e ){
+            resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+            responseWriter.write("Requerimiento invalido");
+        } catch(Exception e){
+            resp.setStatus(HttpServletResponse.SC_EXPECTATION_FAILED);
+            responseWriter.write("Requerimiento invalido");
+        } finally{
+            responseWriter.flush();
+        }
+    }
+
+    @Override
+    protected void doPost(javax.servlet.http.HttpServletRequest req, javax.servlet.http.HttpServletResponse resp) throws javax.servlet.ServletException, java.io.IOException {
         Writer responseWriter = resp.getWriter();
         Optional<String> optName = Optional.ofNullable(req.getParameter("id"));
         try {
