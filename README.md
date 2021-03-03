@@ -15,3 +15,7 @@
     *  504 Gateway Timeout: El servidor estaba actuando como una compuerta o proxy y no revicio una respuesta a tiempo del servidor superior.
     *  400 Bad Request: El servidor no puede o no procesara la solicitud debido a un aparente error de cliente.
     *  404 Not Found: El recurso solicitado no pudo ser encontrado pero puede estar disponible en el futuro.
+- Nueva conexion con telnet a "www.httpbin.org" 
+![Capture3](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture3.PNG)
+  * Obteniendo el recurso /html
+![Capture4](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture4.PNG)
