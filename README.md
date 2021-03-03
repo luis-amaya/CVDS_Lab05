@@ -8,3 +8,10 @@
 ![Capture1](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture1.PNG)
 - Peticion GET solicitando el recurso 'sssss/abc.html', utilizando la version 1.0 de HTTP
 ![Capture2](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture2.PNG)
+  * El codigo de error que sale es el 505 cuyo significado es: El servidor no soporta la version del protocolo HTTP utilizada en la solicitud.
+  * Otros codigos de error:
+    *  500 Internal Server Error: Un mesnaje de error, dado cuando una condicion inesperada fue encontrada y no otro mensaje de error especifico se puede dar.
+    *  502 Bad Gateway: El servidor esta actuando como una compuerta o un proxy y recibio una respuesta invalida del servidor superior.
+    *  504 Gateway Timeout: El servidor estaba actuando como una compuerta o proxy y no revicio una respuesta a tiempo del servidor superior.
+    *  400 Bad Request: El servidor no puede o no procesara la solicitud debido a un aparente error de cliente.
+    *  404 Not Found: El recurso solicitado no pudo ser encontrado pero puede estar disponible en el futuro.
