@@ -22,7 +22,11 @@ import edu.eci.cvds.servlet.model.Todo;
 @WebServlet(
     urlPatterns = "/extendServlet"
 )
-
+/**
+ * @author Luis Amaya
+ * @author Sebastian Mina
+ * @version 1.0 03/03/2021
+ */
 public class ExtendServlet extends HttpServlet{
 
     private static final long serialVersionUID = 35L;
