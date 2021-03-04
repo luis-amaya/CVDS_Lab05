@@ -38,3 +38,5 @@
     * curl -i se utiliza para incluir el encabezado de la direccion remota en el output.
 ## Parte 2. Haciendo una Aplicacion Web Dinamica a Bajo Nivel
 - Creacion de proyecto maven utilizando el arquetipo de aplicacion web estandar.
+
+Hola hola hola
