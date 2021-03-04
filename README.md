@@ -41,3 +41,35 @@
 
 ![Capture8](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture8.PNG)
 ![Capture9](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture9.PNG)
+
+- En el pom.xml, modifique la propiedad "packaging" con el valor "war".
+![Capture10](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture10.PNG)
+
+- Compilando y ejecutando.
+![Capture11](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture11.PNG)
+![Capture12](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture12.PNG)
+
+- Abriendo en navegador.
+![Capture13](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture13.PNG)
+![Capture14](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture14.PNG)
+![Capture15](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture15.PNG)
+
+- Agregando dependencias gson.
+![Capture16](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture16.PNG)
+
+- En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+![Capture17](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture17.PNG)
+
+- Creando los getters y setters.
+![Capture18](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture18.PNG)
+
+- Clase que hereda a HttpServlet
+![Capture19](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture19.PNG)
+
+- Compilando y probando.
+![Capture20](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture20.PNG)
+![Capture21](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture21.PNG)
+![Capture22](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture22.PNG)
+![Capture23](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture23.PNG)
+
+
