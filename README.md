@@ -39,4 +39,5 @@
 ## Parte 2. Haciendo una Aplicacion Web Dinamica a Bajo Nivel
 - Creacion de proyecto maven utilizando el arquetipo de aplicacion web estandar.
 
-Hola hola hola
+![Capture8](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture8.PNG)
+![Capture9](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture9.PNG)
