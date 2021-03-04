@@ -44,7 +44,7 @@
 
 - En el pom.xml, modifique la propiedad "packaging" con el valor "war".
 ![Capture10](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture10.PNG)
-
+- El servidor embebido Tomcat esta configurado para el Puerto TCP/IP 8080
 - Compilando y ejecutando.
 ![Capture11](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture11.PNG)
 ![Capture12](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture12.PNG)
@@ -78,6 +78,8 @@
 ![Capture25](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture25.PNG)
 ![Capture26](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture26.PNG)
 
+- Con el metodo GET, es necesario poner el parametro y valor del ID.
+
 # Parte 4. FRAMEWORKS WEB MVC – JAVA SERVER FACES / PRIME FACES
 
 A continuación se muestran las pruebas de la parte 4, incluyendo modificaciones en partes de código requeridas.
@@ -87,4 +89,5 @@ A continuación se muestran las pruebas de la parte 4, incluyendo modificaciones
 ![Capture30](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture30.PNG)
 ![Capture31](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture31.PNG)
 ![Capture32](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture32.PNG)
+- Diferencia entre SessionScoped y ApplicationScoped: No se encontro una diferencia notable durante la ejecucion 
 
