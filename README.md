@@ -72,4 +72,19 @@
 ![Capture22](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture22.PNG)
 ![Capture23](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture23.PNG)
 
+## Parte 3.
+
+![Capture24](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture24.PNG)
+![Capture25](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture25.PNG)
+![Capture26](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture26.PNG)
+
+# Parte 4. FRAMEWORKS WEB MVC – JAVA SERVER FACES / PRIME FACES
+
+A continuación se muestran las pruebas de la parte 4, incluyendo modificaciones en partes de código requeridas.
+![Capture27](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture27.PNG)
+![Capture28](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture28.PNG)
+![Capture29](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture29.PNG)
+![Capture30](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture30.PNG)
+![Capture31](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture31.PNG)
+![Capture32](https://github.com/luis-amaya/CVDS_Lab05/blob/main/images/Capture32.PNG)
 
